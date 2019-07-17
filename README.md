@@ -2,6 +2,8 @@
 
 # Standard Notes Overcast Theme
 
+Overcast, to become cloudy or dark — just like this Standard Notes theme.
+
 ## Installation
 
 1. Open the [Standard Notes web app](https://app.standardnotes.org/).
