@@ -9,7 +9,7 @@ This theme is based off of Standard Notes' official [Midnight Theme](https://git
 
 1. Open the [Standard Notes web app](https://app.standardnotes.org/).
 
-2. In extensions, click import, paste `https://changelog.ceiphr.com/wMLniolIii` and hit `ENTER`.
+2. In extensions, click import, paste `https://changelog.ceiphr.com/p/wMLniolIii` and hit `ENTER`.
 
 3. Click "Install," then activate the *Overcast* theme.
 
