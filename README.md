@@ -1,4 +1,4 @@
-<img src="https://cdn.ceiphr.io/standardnotes/overcast/overcast.png" alt="materia-logo" align="right" width=200px/>
+<img src="https://github.com/ceiphr/sn-overcast-theme/overcast.png" alt="overcast" align="right" width=200px/>
 
 # Standard Notes Overcast Theme
 
