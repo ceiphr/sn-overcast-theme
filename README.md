@@ -1,4 +1,4 @@
-<img src="https://github.com/ceiphr/sn-overcast-theme/overcast.png" alt="overcast" align="right" width=200px/>
+<img src="https://raw.githubusercontent.com/ceiphr/sn-overcast-theme/master/overcast.png" alt="overcast" align="right" width=200px/>
 
 # Standard Notes Overcast Theme
 
