@@ -63,6 +63,13 @@
   background-color: var(--secondary-bg-color) !important;
 }
 
+#notes-column .note,
+.notes .note {
+  &:not(.selected):hover {
+    background-color: rgb(51, 48, 53) !important;
+  }
+}
+
 #select {
   margin: 5px;
   color: var(--sn-stylekit-foreground-color);

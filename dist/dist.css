@@ -47,6 +47,11 @@
   background-color: var(--secondary-bg-color) !important;
 }
 
+#notes-column .note:not(.selected):hover,
+.notes .note:not(.selected):hover {
+  background-color: #333035 !important;
+}
+
 #select {
   margin: 5px;
   color: var(--sn-stylekit-foreground-color);
