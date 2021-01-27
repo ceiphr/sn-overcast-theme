@@ -17,12 +17,16 @@ This theme is based off of Standard Notes' official [Midnight Theme](https://git
 
 &nbsp;
 
-![Standard Notes Screenshot](https://i.imgur.com/KDnyBGx.png)
+![Standard Notes Screenshot](preview.png)
 
 &nbsp;
 
+## Disclaimer
+
+I, [Ari Birnbaum](https://www.ceiphr.com/), am in no way affiliated with Monokai Pro or the teams behind Monokai Pro. Nor am I affiliated with Standard Notes or the teams behind Standard Notes.
+
 ## License
 
-This project is licensed under the MIT License.
+Standard Notes Overcast Theme is available under the MIT License.
 
 MIT © [Ari Birnbaum (Ceiphr)](https://www.ceiphr.com).

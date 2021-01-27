@@ -40,7 +40,7 @@
   --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
   --sn-stylekit-secondary-border-color: var(--border-color);
 
-  --sn-stylekit-secondary-contrast-background-color: #403e41;
+  --sn-stylekit-secondary-contrast-background-color: var(--editor-bg-color);
   --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
   --sn-stylekit-secondary-contrast-border-color: var(--border-color);
 
@@ -51,6 +51,16 @@
 
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+
+  --sn-stylekit-general-border-radius: 4px;
+}
+
+#search-bar {
+  border: 1px solid var(--sn-stylekit-contrast-border-color);
+}
+
+#editor-title-bar {
+  background-color: var(--secondary-bg-color) !important;
 }
 
 #select {
