@@ -91,12 +91,12 @@
   }
 }
 
-#notes-column .note .note-flags .flag.warning:not(.selected),
-.notes .note .note-flags .flag.warning:not(.selected),
-#notes-column .note .note-flags .flag.success:not(.selected),
-.notes .note .note-flags .flag.success:not(.selected),
-#notes-column .note .note-flags .flag.danger:not(.selected),
-.notes .note .note-flags .flag.danger:not(.selected),
+#notes-column .note:not(.selected) .note-flags .flag.warning,
+.notes .note:not(.selected) .note-flags .flag.warning,
+#notes-column .note:not(.selected) .note-flags .flag.success,
+.notes .note:not(.selected) .note-flags .flag.success,
+#notes-column .note:not(.selected) .note-flags .flag.danger,
+.notes .note:not(.selected) .note-flags .flag.danger,
 .sn-component .sk-button.warning,
 .sn-component .sk-button.success,
 .sn-component .sk-button.danger {
