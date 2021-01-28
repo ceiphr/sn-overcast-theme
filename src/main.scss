@@ -55,6 +55,14 @@
   --sn-stylekit-general-border-radius: 4px;
 }
 
+.sn-component .sk-button.sk-secondary-contrast::before {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.sn-component .sk-button.sk-secondary-contrast::after {
+  color: var(--secondary-bg-color) !important;
+}
+
 #search-bar {
   border: 1px solid var(--sn-stylekit-contrast-border-color);
 }
@@ -83,8 +91,12 @@
   }
 }
 
-#notes-column .note .note-flags .flag.warning,
-.notes .note .note-flags .flag.warning,
+#notes-column .note .note-flags .flag.warning:not(.selected),
+.notes .note .note-flags .flag.warning:not(.selected),
+#notes-column .note .note-flags .flag.success:not(.selected),
+.notes .note .note-flags .flag.success:not(.selected),
+#notes-column .note .note-flags .flag.danger:not(.selected),
+.notes .note .note-flags .flag.danger:not(.selected),
 .sn-component .sk-button.warning,
 .sn-component .sk-button.success,
 .sn-component .sk-button.danger {
