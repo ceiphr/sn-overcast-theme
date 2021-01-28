@@ -8,11 +8,11 @@
   --sn-stylekit-info-contrast-color: white;
   --sn-stylekit-neutral-color: #727072;
   --sn-stylekit-neutral-contrast-color: white;
-  --sn-stylekit-success-color: #64dd17;
+  --sn-stylekit-success-color: #a9dc76;
   --sn-stylekit-success-contrast-color: white;
-  --sn-stylekit-warning-color: #ffa000;
+  --sn-stylekit-warning-color: rgb(255, 216, 102);
   --sn-stylekit-warning-contrast-color: white;
-  --sn-stylekit-danger-color: #d32f2f;
+  --sn-stylekit-danger-color: #ff6188;
   --sn-stylekit-danger-contrast-color: white;
   --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
@@ -44,6 +44,19 @@
 }
 
 #editor-title-bar {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.sn-component .sk-menu-panel .sk-menu-panel-row:not(.selected):hover {
+  background-color: #333035 !important;
+}
+
+#search-bar {
+  background-color: var(--editor-bg-color) !important;
+}
+
+#notes-column #notes-title-bar,
+.notes #notes-title-bar {
   background-color: var(--secondary-bg-color) !important;
 }
 
