@@ -65,6 +65,14 @@
   background-color: #333035 !important;
 }
 
+#notes-column .note .note-flags .flag.warning,
+.notes .note .note-flags .flag.warning,
+.sn-component .sk-button.warning,
+.sn-component .sk-button.success,
+.sn-component .sk-button.danger {
+  color: var(--secondary-bg-color);
+}
+
 #select {
   margin: 5px;
   color: var(--sn-stylekit-foreground-color);
