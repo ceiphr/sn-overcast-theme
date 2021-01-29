@@ -3,7 +3,7 @@
 # Standard Notes Overcast Theme
 
 Overcast, to become cloudy or dark — just like this Standard Notes theme.
-This theme is based off Standard Notes' official [Midnight Theme](https://github.com/sn-extensions/midnight-theme) and the color scheme was inspired by the [Monokai Pro](https://monokai.pro/) Visual Studio Code theme.
+Standard Notes' official [Midnight Theme](https://github.com/sn-extensions/midnight-theme) is the basis for this theme. While the [Monokai Pro VS Code theme](https://monokai.pro/) acted as inspiration for the colors used.
 
 ## Installation
 
