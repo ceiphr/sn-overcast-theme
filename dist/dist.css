@@ -42,8 +42,9 @@
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
   --sn-stylekit-monospace-font: "Fira Code", "Ubuntu Mono", courier, monospace;
-  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, "Fira Sans",
-    "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
+      "Fira Sans", "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue",
+      sans-serif;
   --sn-stylekit-general-border-radius: 4px;
 }
 
@@ -72,6 +73,10 @@
 /****************************************************************
  *  #notes-column styles
 ****************************************************************/
+.note .selected, .note .selected svg {
+  color: white;
+}
+
 #notes-column #notes-title-bar,
 .notes #notes-title-bar {
   background-color: var(--secondary-bg-color) !important;
